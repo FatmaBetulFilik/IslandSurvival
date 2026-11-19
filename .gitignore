@@ -1,0 +1,58 @@
+# ---------- Unity tarafından üretilenler ----------
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset import sırasında oluşan geçici dosyalar
+/[Aa]ssets/Plugins/Editor/JetBrains*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ---------- IDE'nin ürettiği dosyalar ----------
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vsconfig.user
+
+# VS Code: ortak ayar dosyalarını tut, kişisel olanları alma
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ---------- Build çıktıları ----------
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# ---------- Kırılma/crash ve sistem dosyaları ----------
+sysinfo.txt
+crashlytics-build.properties
+.DS_Store
+Thumbs.db
+*.log
+
+# ---------- Üçüncü parti asset'ler (GitHub'a ASLA gitmez) ----------
+/Assets/ThirdParty/
+/Assets/ThirdParty.meta
